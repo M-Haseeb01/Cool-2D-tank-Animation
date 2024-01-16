@@ -1,0 +1,143 @@
+#include<iostream>
+#include<conio.h>
+
+#include "Header.h"
+
+using namespace std;
+
+int main() {
+
+	int x = 20;
+	int n;
+
+
+
+
+
+
+
+
+
+	for (int i = 0; i <55; i++)
+	{
+		myRectangle(1120, 135, 1230, 175, 32, 32, 32);
+		myRectangle(10, 450, 1700, 710, 63, 64, 64);//big rectangle
+		myRectangle(50, 580, 150, 610, 224, 224, 224);
+		myRectangle(250, 580, 350, 610, 224, 224, 224);
+		myRectangle(450, 580, 550, 610, 224, 224, 224);
+		myRectangle(650, 580, 750, 610, 224, 224, 224);
+		myRectangle(850, 580, 950, 610, 224, 224, 224);
+		myRectangle(1050, 580, 1150, 610, 224, 224, 224);
+		myRectangle(1250, 580, 1350, 610, 224, 224, 224);//brick
+		//myRectangle(0, 450, 1700, 700, 79, 59, 32);//big rectangle
+
+		
+
+		myEllipse(180 + x, 400, 230 + x, 450, 32, 32, 32); Sleep(10);//tyre
+		myEllipse(230 + x, 400, 280 + x, 450, 32, 32, 32); Sleep(10);
+		myEllipse(280 + x, 400, 330 + x, 450, 32, 32, 32); Sleep(10);
+		myEllipse(330 + x, 400, 380 + x, 450, 32, 32, 32); Sleep(10);
+		myEllipse(380 + x, 400, 430 + x, 450, 32, 32, 32); Sleep(10);
+		myEllipse(430 + x, 400, 480 + x, 450, 32, 32, 32); Sleep(10);
+		myEllipse(480 + x, 400, 530 + x, 450, 32, 32, 32); Sleep(10);
+		myEllipse(530 + x, 400, 580 + x, 450, 32, 32, 32); Sleep(10);
+		myEllipse(580 + x, 400, 630 + x, 450, 32, 32, 32); Sleep(10);
+
+		myEllipse(630 + x, 400, 680 + x, 450, 32, 32, 32); Sleep(10);//tyre
+
+		myRectangle(1100, 125, 1250, 670, 128, 128, 128);
+
+		myEllipse(50, 150, 170, 270, 250, 250, 250);//moon
+
+
+		myRectangle(180 + x, 250, 690 + x, 400, 0, 250, 0); Sleep(10);//lower
+		myRectangle(190 + x, 255, 680 + x, 390, 38, 38, 38); Sleep(10);
+
+		myRectangle(230 + x, 120, 490 + x, 250, 0, 250, 0); Sleep(10);//upper 2
+
+		myRectangle(240 + x, 130, 480 + x, 240, 37, 37, 37); Sleep(10);//block upper
+
+		myRectangle(490 + x, 120, 750 + x, 150, 37, 37, 37); Sleep(10);//gun
+		//myEllipse(180 + x, 400, 220 + x, 470, 0, 200, 0); Sleep(10);
+		//myEllipse(650 + x, 400, 690 + x, 470, 0, 200, 0); Sleep(10);
+		myRectangle(180 + x, 250, 690 + x, 400, 0, 0, 0);
+		myRectangle(230 + x, 120, 490 + x, 250, 0, 0, 0);
+		//myEllipse(180 + x, 400, 220 + x, 470, 0, 0, 0); 
+		//myEllipse(650 + x, 400, 690 + x, 470, 0, 0, 0);
+		myRectangle(190 + x, 255, 680 + x, 390, 0, 0, 0);
+		myRectangle(240 + x, 130, 480 + x, 240, 0, 0, 0);
+		myEllipse(180 + x, 400, 230 + x, 450, 0, 0, 0); //tyre
+		myEllipse(230 + x, 400, 280 + x, 450, 0, 0, 0);
+		myEllipse(280 + x, 400, 330 + x, 450, 0, 0, 0);
+		myEllipse(330 + x, 400, 380 + x, 450, 0, 0, 0);
+		myEllipse(380 + x, 400, 430 + x, 450, 0, 0, 0);
+		myEllipse(430 + x, 400, 480 + x, 450, 0, 0, 0);
+		myEllipse(480 + x, 400, 530 + x, 450, 0, 0, 0);
+
+		myEllipse(580 + x, 400, 640 + x, 450, 0, 0, 0); //tyre
+		myRectangle(490 + x, 120, 750 + x, 150, 0, 0, 0);
+		x++;
+
+
+	}
+	myRectangle(10, 10, 1700, 450, 102, 178, 255);//sky
+	myEllipse(50, 150, 170, 270, 250, 250, 0);//moon
+	myRectangle(330, 480, 350, 560, 64, 64, 64);
+	
+
+	myRectangle(180 + x, 250, 690 + x, 400, 0, 250, 0); //Sleep(10);//lower
+	myRectangle(230 + x, 120, 490 + x, 250, 0, 250, 0); //(10);//upper 2
+	myRectangle(490 + x, 120, 750 + x, 150, 32, 32, 32); //gun
+	//myEllipse(180 + x, 400, 220 + x, 470, 0, 200, 0); Sleep(10);
+	//myEllipse(650 + x, 400, 690 + x, 470, 0, 200, 0); Sleep(10);
+	myRectangle(190 + x, 255, 680 + x, 390, 35, 35, 35);//black lower
+
+	myRectangle(240 + x, 130, 480 + x, 240, 32, 32, 32); //block upper
+
+	myRectangle(10, 450, 1700, 710, 63, 64, 64);//big rectangle
+	myRectangle(50, 580, 150, 610, 224, 224, 224);
+	myRectangle(250, 580, 350, 610, 224, 224, 224);
+	myRectangle(450, 580, 550, 610, 224, 224, 224);
+	myRectangle(650, 580, 750, 610, 224, 224, 224);
+	myRectangle(850, 580, 950, 610, 224, 224, 224);
+	myRectangle(1050, 580, 1150, 610, 224, 224, 224);
+	myRectangle(1250, 580, 1350, 610, 224, 224, 224);//brick
+
+	myRectangle(1100, 125, 1250, 670, 128, 128, 128);//wall
+	
+	//myRectangle(900, 350, 1000, 660, 64, 164, 64);//tree
+	///(780, 310, 1060, 350, 64, 65, 65);
+	//myRectangle(810, 280, 990, 310, 88, 88, 88);
+
+	myEllipse(180 + x, 400, 230 + x, 450, 37, 37, 37); //tyre
+	myEllipse(230 + x, 400, 280 + x, 450, 35, 37, 37);
+	myEllipse(280 + x, 400, 330 + x, 450, 37, 37, 37);
+	myEllipse(330 + x, 400, 380 + x, 450, 37, 37, 32);
+	myEllipse(380 + x, 400, 430 + x, 450, 37, 37, 37);
+	myEllipse(430 + x, 400, 480 + x, 450, 37, 37, 37);
+	myEllipse(480 + x, 400, 530 + x, 450, 37, 37, 37);
+	myEllipse(530 + x, 400, 580 + x, 450, 37, 37, 37);
+	myEllipse(580 + x, 400, 630 + x, 450, 37, 37, 37);
+
+	myEllipse(630 + x, 400, 680 + x, 450, 37, 37, 37); //tyre
+
+
+	myRectangle(1120, 135, 1230, 175, 32, 32, 32);
+
+
+	for (int i = 0; i < 170; i++) {
+
+		myEllipse(790 + x, 120, 810 + x, 200, 250, 250, 0);
+		Sleep(30);
+		myEllipse(790 + x, 120, 810 + x, 200,102 ,178, 255);
+
+		x = x + 2;
+
+
+	}
+
+
+
+
+	return 0;
+}
